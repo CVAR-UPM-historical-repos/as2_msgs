@@ -11,6 +11,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 set(MSGS_FILES
   "msg/PlatformControlMode.msg"
@@ -21,12 +23,12 @@ set(SRVS_FILES
   "srv/SetPlatformControlMode.srv"
 )
 
-find_package(rosidl_default_generators REQUIRED)
+
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSGS_FILES}
   ${SRVS_FILES} 
-  # DEPENDENCIES std_msgs
+  DEPENDENCIES builtin_interfaces std_msgs
 )
 
 ament_package()
