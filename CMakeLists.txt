@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(MSGS_FILES
   "msg/PlatformControlMode.msg"
   "msg/PlatformStatus.msg"
+  "msg/Thrust.msg"
 )
 
 set(SRVS_FILES
