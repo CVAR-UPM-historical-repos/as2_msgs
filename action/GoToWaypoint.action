@@ -1,0 +1,10 @@
+# Request
+geometry_msgs/Pose target_pose # in meters
+bool ignore_pose_yaw
+---
+# Result
+bool goto_success # false if failed to takeoff
+---
+# Feedback
+float32 actual_speed # m/s
+float32 actual_distance_to_goal # in meters

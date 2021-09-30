@@ -11,6 +11,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(action_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
@@ -24,12 +26,17 @@ set(SRVS_FILES
   "srv/SetPlatformControlMode.srv"
 )
 
-
+set (ACTION_FILES
+  "action/TakeOff.action"
+  "action/Land.action"
+  "action/GoToWaypoint.action"
+  )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSGS_FILES}
   ${SRVS_FILES} 
-  DEPENDENCIES builtin_interfaces std_msgs
+  ${ACTION_FILES}
+  DEPENDENCIES builtin_interfaces std_msgs action_msgs geometry_msgs
 )
 
 ament_package()

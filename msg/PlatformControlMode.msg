@@ -2,8 +2,8 @@
 
 std_msgs/Header header    # Message header
 
-int8 YAY_ANGLE         = 0
-int8 YAY_SPEED         = 1
+int8 YAW_ANGLE         = 0
+int8 YAW_SPEED         = 1
 
 int8 yaw_mode
 
