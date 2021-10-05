@@ -36,7 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSGS_FILES}
   ${SRVS_FILES} 
   ${ACTION_FILES}
-  DEPENDENCIES builtin_interfaces std_msgs action_msgs geometry_msgs
+  DEPENDENCIES geometry_msgs builtin_interfaces std_msgs action_msgs 
 )
 
 ament_package()
