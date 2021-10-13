@@ -31,6 +31,7 @@ set (ACTION_FILES
   "action/TakeOff.action"
   "action/Land.action"
   "action/GoToWaypoint.action"
+  "action/FollowPath.action"
   )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
