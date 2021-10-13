@@ -20,6 +20,7 @@ set(MSGS_FILES
   "msg/PlatformControlMode.msg"
   "msg/PlatformStatus.msg"
   "msg/Thrust.msg"
+  "msg/TrajectoryWaypoints.msg"
 )
 
 set(SRVS_FILES
