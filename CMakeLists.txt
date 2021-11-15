@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT_NAME aerostack2_msgs)
+set(PROJECT_NAME as2_msgs)
 project(${PROJECT_NAME})
 
 # Default to C++14

@@ -1,5 +1,5 @@
 # Request
-aerostack2_msgs/TrajectoryWaypoints trajectory_waypoints # in meters
+as2_msgs/TrajectoryWaypoints trajectory_waypoints # in meters
 ---
 # Result
 bool follow_path_success # false if failed to follow_path
