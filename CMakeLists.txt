@@ -22,10 +22,12 @@ set(MSGS_FILES
   "msg/PlatformInfo.msg"
   "msg/Thrust.msg"
   "msg/TrajectoryWaypoints.msg"
+  "msg/PlatformStateMachineEvent.msg"
 )
 
 set(SRVS_FILES
   "srv/SetPlatformControlMode.srv"
+  "srv/SetPlatformStateMachineEvent.srv"
 )
 
 set (ACTION_FILES

@@ -7,4 +7,5 @@ bool armed
 bool offboard
 
 PlatformStatus status
+PlatformControlMode current_control_mode
 
