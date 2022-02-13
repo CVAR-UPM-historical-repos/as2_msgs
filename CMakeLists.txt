@@ -23,14 +23,19 @@ set(MSGS_FILES
   "msg/Thrust.msg"
   "msg/TrajectoryWaypoints.msg"
   "msg/PlatformStateMachineEvent.msg"
+  "msg/PoseStampedWithID.msg"
+  "msg/TrajectoryWaypointsWithID.msg"
+  "msg/Speed.msg"
 )
 
 set(SRVS_FILES
   "srv/SetPlatformControlMode.srv"
   "srv/SetPlatformStateMachineEvent.srv"
+  "srv/SendTrajectoryWaypoints.srv"
+  "srv/SetSpeed.srv"
 )
 
-set (ACTION_FILES
+set(ACTION_FILES
   "action/TakeOff.action"
   "action/Land.action"
   "action/GoToWaypoint.action"
