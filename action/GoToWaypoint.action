@@ -1,5 +1,6 @@
 # Request
 geometry_msgs/Pose target_pose # in meters
+float32 max_speed # in m/s
 bool ignore_pose_yaw
 ---
 # Result
