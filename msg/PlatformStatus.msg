@@ -8,4 +8,3 @@ int8 FLYING        = 3
 int8 LANDING       = 4 
 
 int8 state
-
