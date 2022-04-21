@@ -8,9 +8,9 @@ int8 YAW_SPEED  =  1
 
 int8 yaw_mode
 
-int8 UNSET      = -1 # mode when the controller is not set
-int8 HOVER      =  0 # x,   y , z  refs
-int8 TRAJECTORY =  1 # x, y z, vx, vy, vz, ax, ay, az refs
-int8 SPEED      =  2 # vx, vy , vz refs
+int8 UNSET           = -1 # mode when the controller is not set
+int8 HOVER_MODE      =  0 # x,   y , z  refs
+int8 TRAJECTORY_MODE =  1 # x, y z, vx, vy, vz, ax, ay, az refs
+int8 SPEED_MODE      =  2 # vx, vy , vz refs
 
 int8 control_mode
