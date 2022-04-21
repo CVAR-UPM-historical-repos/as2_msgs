@@ -17,9 +17,9 @@ int8 ACRO_MODE        =  5 # p, q, r speed + Thrust
 
 int8 control_mode
 
-int8 local_enu_frame  =  0 # local coordinates (use this by default)
-int8 body_flu_frame   =  1 # body coordinates 
-int8 global_enu_frame =  2 # gps coordinates 
+int8 LOCAL_ENU_FRAME  =  0 # Local coordinates (Use this by default)
+int8 BODY_FLU_FRAME   =  1 # Body coordinates 
+int8 GLOBAL_ENU_FRAME =  2 # GPS coordinates 
 
 int8 reference_frame 
 
