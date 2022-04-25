@@ -27,7 +27,6 @@ endforeach()
 
 
 set(MSGS_FILES
-  "msg/ControllerControlMode.msg"
   "msg/ControllerInfo.msg"
   "msg/ControlMode.msg"
   "msg/PlatformControlMode.msg"
