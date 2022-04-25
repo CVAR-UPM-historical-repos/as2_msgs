@@ -51,6 +51,7 @@ set(SRVS_FILES
   "srv/GetOrigin.srv"
   "srv/GeopathToPath.srv"
   "srv/PathToGeopath.srv"
+  "srv/ListControlModes.srv"
 )
 
 set(ACTION_FILES
