@@ -29,7 +29,6 @@ endforeach()
 set(MSGS_FILES
   "msg/ControllerInfo.msg"
   "msg/ControlMode.msg"
-  "msg/PlatformControlMode.msg"
   "msg/PlatformStatus.msg"
   "msg/PlatformInfo.msg"
   "msg/Thrust.msg"
@@ -41,10 +40,9 @@ set(MSGS_FILES
 )
 
 set(SRVS_FILES
-  "srv/SetPlatformControlMode.srv"
   "srv/SetPlatformStateMachineEvent.srv"
   "srv/SendTrajectoryWaypoints.srv"
-  "srv/SetControllerControlMode.srv"
+  "srv/SetControlMode.srv"
   "srv/SetSpeed.srv"
   "srv/SetOrigin.srv"
   "srv/GetOrigin.srv"
