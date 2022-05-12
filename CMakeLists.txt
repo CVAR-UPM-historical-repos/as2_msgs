@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.5)
 
 set(PROJECT_NAME as2_msgs)
-project(${PROJECT_NAME})
+project(${PROJECT_NAME} VERSION 0.1.0)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
+  set(CMAKE_CXX_STANDARD 17)
 endif()
 
 # find dependencies
@@ -29,33 +29,33 @@ endforeach()
 set(MSGS_FILES
   "msg/ControllerInfo.msg"
   "msg/ControlMode.msg"
-  "msg/PlatformStatus.msg"
   "msg/PlatformInfo.msg"
+  "msg/PlatformStateMachineEvent.msg"
+  "msg/PlatformStatus.msg"
+  "msg/PoseStampedWithID.msg"
+  "msg/Speed.msg"
   "msg/Thrust.msg"
   "msg/TrajectoryWaypoints.msg"
-  "msg/PlatformStateMachineEvent.msg"
-  "msg/PoseStampedWithID.msg"
   "msg/TrajectoryWaypointsWithID.msg"
-  "msg/Speed.msg"
 )
 
 set(SRVS_FILES
-  "srv/SetPlatformStateMachineEvent.srv"
+  "srv/GeopathToPath.srv"
+  "srv/GetOrigin.srv"
+  "srv/ListControlModes.srv"
+  "srv/PathToGeopath.srv"
   "srv/SendTrajectoryWaypoints.srv"
   "srv/SetControlMode.srv"
-  "srv/SetSpeed.srv"
   "srv/SetOrigin.srv"
-  "srv/GetOrigin.srv"
-  "srv/GeopathToPath.srv"
-  "srv/PathToGeopath.srv"
-  "srv/ListControlModes.srv"
+  "srv/SetPlatformStateMachineEvent.srv"
+  "srv/SetSpeed.srv"
 )
 
 set(ACTION_FILES
-  "action/TakeOff.action"
-  "action/Land.action"
-  "action/GoToWaypoint.action"
   "action/FollowPath.action"
+  "action/GoToWaypoint.action"
+  "action/Land.action"
+  "action/TakeOff.action"
   )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
