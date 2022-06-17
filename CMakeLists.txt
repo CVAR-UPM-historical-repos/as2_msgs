@@ -37,6 +37,7 @@ set(MSGS_FILES
   "msg/Thrust.msg"
   "msg/TrajectoryWaypoints.msg"
   "msg/TrajectoryWaypointsWithID.msg"
+  "msg/MissionEvent.msg"
 )
 
 set(SRVS_FILES
