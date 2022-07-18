@@ -1,4 +1,4 @@
-#TODO MSGS DESCRIPTION
+#Message for encoding the desired thrust value
 
 std_msgs/Header header    # Message header
 

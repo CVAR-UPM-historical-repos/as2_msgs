@@ -1,4 +1,4 @@
-#TODO: MSGS DESCRIPTION
+#Message that shows the platform status and the current control mode
 
 std_msgs/Header header    # Message header
 

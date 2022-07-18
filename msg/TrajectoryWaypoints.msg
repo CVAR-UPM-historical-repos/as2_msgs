@@ -1,4 +1,5 @@
-#TODO MSGS DESCRIPTION
+# Message for generating a trajectory for a given path with a given yaw mode and velocity
+
 std_msgs/Header header    # Message header
 
 uint8 yaw_mode
