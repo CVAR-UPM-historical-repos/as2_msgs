@@ -37,6 +37,8 @@ set(MSGS_FILES
   "msg/TrajectoryWaypoints.msg"
   "msg/TrajectoryWaypointsWithID.msg"
   "msg/MissionEvent.msg"
+  "msg/NodeStatus.msg"
+  "msg/TrajGenInfo.msg"
 )
 
 set(SRVS_FILES
@@ -56,7 +58,7 @@ set(ACTION_FILES
   "action/GoToWaypoint.action"
   "action/Land.action"
   "action/TakeOff.action"
-  )
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSGS_FILES}
