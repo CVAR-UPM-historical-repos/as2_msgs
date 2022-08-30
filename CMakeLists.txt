@@ -28,6 +28,7 @@ endforeach()
 set(MSGS_FILES
   "msg/ControllerInfo.msg"
   "msg/ControlMode.msg"
+  "msg/FollowTargetInfo.msg"
   "msg/PlatformInfo.msg"
   "msg/PlatformStateMachineEvent.msg"
   "msg/PlatformStatus.msg"
@@ -42,9 +43,13 @@ set(MSGS_FILES
 )
 
 set(SRVS_FILES
+  "srv/DynamicFollower.srv"
+  "srv/DynamicLand.srv"
   "srv/GeopathToPath.srv"
   "srv/GetOrigin.srv"
   "srv/ListControlModes.srv"
+  "srv/PackagePickUp.srv"
+  "srv/PackageUnPick.srv"
   "srv/PathToGeopath.srv"
   "srv/SendTrajectoryWaypoints.srv"
   "srv/SetControlMode.srv"
