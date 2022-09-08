@@ -40,6 +40,8 @@ set(MSGS_FILES
   "msg/MissionEvent.msg"
   "msg/NodeStatus.msg"
   "msg/TrajGenInfo.msg"
+  "msg/Geofence.msg"
+  "msg/Alert.msg"
 )
 
 set(SRVS_FILES
@@ -56,6 +58,8 @@ set(SRVS_FILES
   "srv/SetOrigin.srv"
   "srv/SetPlatformStateMachineEvent.srv"
   "srv/SetSpeed.srv"
+  "srv/SetGeofence.srv"
+  "srv/GetGeofence.srv"
 )
 
 set(ACTION_FILES
