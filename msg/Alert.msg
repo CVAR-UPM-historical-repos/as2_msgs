@@ -1,3 +1,4 @@
 #TODO MSGS DESCRIPTION
 
-int8 alert_code
+int8 id
+int8 alert
