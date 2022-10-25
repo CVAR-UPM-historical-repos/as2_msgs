@@ -1,11 +1,10 @@
-#Message that shows the platform status and the current control mode
+# Message that shows the platform status and the current control mode
 
-std_msgs/Header header    # Message header
+std_msgs/Header header                      # Message header
 
-bool connected
-bool armed
-bool offboard
+bool connected                              # Whether the platform is connected or not
+bool armed                                  # Whether the platform is armed or not
+bool offboard                               # Whether the offboard mode is set or not
 
-PlatformStatus status
-ControlMode current_control_mode
-
+as2_msgs/PlatformStatus status              # Platform status
+as2_msgs/ControlMode current_control_mode   # Platform control mode

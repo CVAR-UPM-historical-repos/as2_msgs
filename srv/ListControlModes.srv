@@ -3,6 +3,6 @@
 # This service ask for available control modes list
 
 ---
-string source
-uint8[] control_modes
+string source                   # Control modes source
+uint8[] control_modes           # Control modes list
 # ------------------------------------------------------------------------------

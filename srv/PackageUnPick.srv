@@ -2,10 +2,8 @@
 # ------------------------------------------------------------------------------
 # This service send command to start package unpick
 
-bool enable
-geometry_msgs/Twist speed_limit
-
-
+bool enable                             # Flag to enable unpick
+geometry_msgs/Twist speed_limit         # speed limit (m/s)
 ---
-bool success              # whether the package unpick could be started or not
+bool success                            # whether it could be started or not
 # ------------------------------------------------------------------------------

@@ -1,19 +1,21 @@
+# Go to waypoint action definition
+
 # Request
-geometry_msgs/Pose target_pose # in meters
-float32 max_speed # in m/s
-bool ignore_pose_yaw
+geometry_msgs/Pose target_pose          # goal pose (m)
+float32 max_speed                       # maximum speed (m/s)
+bool ignore_pose_yaw                    # ignore yaw in pose
 
 uint8 KEEP_YAW             = 0
 uint8 PATH_FACING          = 1
 uint8 FIXED_YAW            = 2
 
-uint8 yaw_mode_flag
+uint8 yaw_mode_flag                     # yaw mode
 
-float32 yaw_angle
+float32 yaw_angle                       # yaw (rad)
 ---
 # Result
-bool goto_success # false if failed to takeoff
+bool goto_success                       # false if failed to takeoff
 ---
 # Feedback
-float32 actual_speed # m/s
-float32 actual_distance_to_goal # in meters
+float32 actual_speed                    # actual speed (m/s)
+float32 actual_distance_to_goal         # distance to goal (m)
