@@ -15,7 +15,6 @@ find_package(rosidl_default_generators REQUIRED)
 set(PROJECT_DEPENDENCIES
   std_msgs
   geometry_msgs
-  action_msgs
   geographic_msgs
   builtin_interfaces
   nav_msgs
