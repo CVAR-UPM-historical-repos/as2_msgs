@@ -1,10 +1,9 @@
 # SERVICE TYPE: SetPlatformStateMachineEvent
 # ------------------------------------------------------------------------------
-# This service adds a belief expression to the belief memory
+# This service sets a PlatformStateMachineEvent
 
-as2_msgs/PlatformStateMachineEvent event
-
+as2_msgs/PlatformStateMachineEvent event     # event to set
 ---
-bool success              # whether the belief has been added successfully or not
-as2_msgs/PlatformStatus current_state # state in which the aircraft is after sending the event
+bool success                                # whether the PSM has been set or not
+as2_msgs/PlatformStatus current_state       # PSM result of the aircraft
 # ------------------------------------------------------------------------------

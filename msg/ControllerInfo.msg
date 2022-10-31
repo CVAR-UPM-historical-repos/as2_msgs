@@ -1,6 +1,6 @@
 # Message that shows the controller state and the current input_control_mode
-# TODO: Extend to output and input control modes
 
-std_msgs/Header header    # Message header
+std_msgs/Header header                      # Message header
 
-ControlMode current_control_mode
+as2_msgs/ControlMode input_control_mode     # Input control mode
+as2_msgs/ControlMode output_control_mode    # Output control mode

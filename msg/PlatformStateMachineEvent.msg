@@ -8,5 +8,5 @@ int8 TOOK_OFF      = 3
 int8 LAND          = 4 
 int8 LANDED        = 5 
 
-int8 event
+int8 event                  # Platform state machine event
 

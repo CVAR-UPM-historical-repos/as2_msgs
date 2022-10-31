@@ -1,5 +1,5 @@
-# Message for speed 
+# Speed message
 
-std_msgs/Header header    # Message header
+std_msgs/Header header      # Message header
 
-float32 speed # in m/s
+float32 speed               # speed (m/s)
