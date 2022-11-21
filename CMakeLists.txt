@@ -41,6 +41,7 @@ set(MSGS_FILES
   "msg/TrajGenInfo.msg"
   "msg/Geofence.msg"
   "msg/Alert.msg"
+  "msg/AlertEvent.msg"
   "msg/BehaviorStatus.msg"
 )
 
