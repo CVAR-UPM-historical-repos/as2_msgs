@@ -34,6 +34,7 @@ set(MSGS_FILES
   "msg/PoseStampedWithID.msg"
   "msg/Speed.msg"
   "msg/Thrust.msg"
+  "msg/TrajectoryPoint.msg"
   "msg/TrajectoryWaypoints.msg"
   "msg/TrajectoryWaypointsWithID.msg"
   "msg/MissionEvent.msg"
