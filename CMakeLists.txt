@@ -44,6 +44,7 @@ set(MSGS_FILES
   "msg/Alert.msg"
   "msg/AlertEvent.msg"
   "msg/BehaviorStatus.msg"
+  "msg/YawMode.msg"
 )
 
 set(SRVS_FILES
