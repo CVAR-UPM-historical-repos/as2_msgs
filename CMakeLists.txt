@@ -70,11 +70,12 @@ set(ACTION_FILES
   "action/GoToWaypoint.action"
   "action/Land.action"
   "action/TakeOff.action"
+  "action/TrajectoryGenerator.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSGS_FILES}
-  ${SRVS_FILES} 
+  ${SRVS_FILES}
   ${ACTION_FILES}
   DEPENDENCIES ${PROJECT_DEPENDENCIES}
 )
