@@ -7,5 +7,6 @@ as2_msgs/TrajectoryWaypointsWithID trajectory_waypoints # Trajectory list of way
 bool follow_path_success                                # False if failed to follow_path
 ---
 # Feedback
+string last_waypoint_id   
 string next_waypoint_id                                 # Next waypiont in path to follow
 uint16 remaining_waypoints                              # Number of remaining waypoints to follow
