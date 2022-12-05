@@ -55,7 +55,6 @@ set(SRVS_FILES
   "srv/PackagePickUp.srv"
   "srv/PackageUnPick.srv"
   "srv/PathToGeopath.srv"
-  "srv/SendTrajectoryWaypoints.srv"
   "srv/SetControlMode.srv"
   "srv/SetOrigin.srv"
   "srv/SetPlatformStateMachineEvent.srv"
